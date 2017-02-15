@@ -3,7 +3,18 @@ Gompertz
 
 Simple visualization of the Gompertz Curve using the Bokeh Python/JS library.
 
-The Gompertz Curve is useful for modeling the growth of adoption of a new technology.
+The Gompertz Curve is useful for modeling the growth of adoption of a new
+technology.
 
-See results [here](http://submariner-mark-57872.netlify.com/gompertz.html)
+
+## Usage
+Install the requirements and run the script
+
+    pip install -r requirements.txt
+    ./gompertz_bokeh.py
+
+The resulting static html page will be generated in the www/ directory (create
+one if necessary)
+
+See results [here](http://submariner-mark-57872.netlify.com/gompertz.html).
 
